@@ -16,7 +16,7 @@ def printTitleMaterial() -> None:
     print()
 
 
-def initList() -> None:
+def initList() -> dict[str, list]:
     """Create a Dictionary of Lists - this is the primary data structure for the script.
 
     :return Dictionary of Lists: A dictionary whose keys contain the various categories the user can access. The values are lists the user can modify.
